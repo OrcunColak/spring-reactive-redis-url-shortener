@@ -1,0 +1,10 @@
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://127.0.0.1:5432/db
+    username: postgres
+    password: postgres
+
+
+shorty:
+  service:
+    url: http://localhost:8080/
