@@ -1,7 +1,7 @@
-package com.colak.spring_reactive_redis_url_shortener.controller;
+package com.colak.springtutorial.controller;
 
 
-import com.colak.spring_reactive_redis_url_shortener.service.LinkService;
+import com.colak.springtutorial.service.LinkService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.http.HttpHeaders;

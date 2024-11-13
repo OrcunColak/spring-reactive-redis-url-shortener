@@ -1,4 +1,4 @@
-package com.colak.spring_reactive_redis_url_shortener.jpa;
+package com.colak.springtutorial.jpa;
 
 import lombok.Data;
 import lombok.experimental.Accessors;

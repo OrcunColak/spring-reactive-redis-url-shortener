@@ -1,4 +1,4 @@
-package com.colak.spring_reactive_redis_url_shortener.exception;
+package com.colak.springtutorial.exception;
 
 
 public class LinkNotFoundException extends RuntimeException {

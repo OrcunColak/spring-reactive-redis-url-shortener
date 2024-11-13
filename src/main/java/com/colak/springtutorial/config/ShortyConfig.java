@@ -1,4 +1,4 @@
-package com.colak.spring_reactive_redis_url_shortener.config;
+package com.colak.springtutorial.config;
 
 import lombok.Getter;
 import org.springframework.beans.factory.annotation.Value;

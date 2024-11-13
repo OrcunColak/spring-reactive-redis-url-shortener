@@ -1,4 +1,4 @@
-package com.colak.spring_reactive_redis_url_shortener;
+package com.colak.springtutorial;
 
 import org.springframework.boot.test.context.TestConfiguration;
 import org.springframework.boot.testcontainers.service.connection.ServiceConnection;
@@ -16,7 +16,7 @@ public class TestSpringReactiveRedisUrlShortenerApplication {
 	}
 
 	public static void main(String[] args) {
-		org.springframework.boot.SpringApplication.from(SpringApplication::main).with(TestSpringReactiveRedisUrlShortenerApplication.class).run(args);
+		org.springframework.boot.SpringApplication.from(SpringTutorialApplication::main).with(TestSpringReactiveRedisUrlShortenerApplication.class).run(args);
 	}
 
 }

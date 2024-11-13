@@ -1,6 +1,6 @@
-package com.colak.spring_reactive_redis_url_shortener.repository;
+package com.colak.springtutorial.repository;
 
-import com.colak.spring_reactive_redis_url_shortener.jpa.LinkEntity;
+import com.colak.springtutorial.jpa.LinkEntity;
 import org.springframework.data.repository.reactive.ReactiveCrudRepository;
 import org.springframework.stereotype.Repository;
 import reactor.core.publisher.Mono;

@@ -1,7 +1,7 @@
-package com.colak.spring_reactive_redis_url_shortener.config;
+package com.colak.springtutorial.config;
 
-import com.colak.spring_reactive_redis_url_shortener.jpa.LinkEntity;
-import com.colak.spring_reactive_redis_url_shortener.model.LinkResponse;
+import com.colak.springtutorial.jpa.LinkEntity;
+import com.colak.springtutorial.model.LinkResponse;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.redis.connection.ReactiveRedisConnectionFactory;

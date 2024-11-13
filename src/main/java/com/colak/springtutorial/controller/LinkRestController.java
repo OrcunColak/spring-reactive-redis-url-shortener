@@ -1,9 +1,9 @@
-package com.colak.spring_reactive_redis_url_shortener.controller;
+package com.colak.springtutorial.controller;
 
 
-import com.colak.spring_reactive_redis_url_shortener.model.LinkRequest;
-import com.colak.spring_reactive_redis_url_shortener.model.LinkResponse;
-import com.colak.spring_reactive_redis_url_shortener.service.LinkService;
+import com.colak.springtutorial.model.LinkRequest;
+import com.colak.springtutorial.model.LinkResponse;
+import com.colak.springtutorial.service.LinkService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;

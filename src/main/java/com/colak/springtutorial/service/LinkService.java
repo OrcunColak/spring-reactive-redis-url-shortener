@@ -1,12 +1,12 @@
-package com.colak.spring_reactive_redis_url_shortener.service;
+package com.colak.springtutorial.service;
 
-import com.colak.spring_reactive_redis_url_shortener.config.ShortyConfig;
-import com.colak.spring_reactive_redis_url_shortener.exception.LinkAlreadyExistsException;
-import com.colak.spring_reactive_redis_url_shortener.exception.LinkNotFoundException;
-import com.colak.spring_reactive_redis_url_shortener.jpa.LinkEntity;
-import com.colak.spring_reactive_redis_url_shortener.model.LinkRequest;
-import com.colak.spring_reactive_redis_url_shortener.model.LinkResponse;
-import com.colak.spring_reactive_redis_url_shortener.repository.LinkRepository;
+import com.colak.springtutorial.config.ShortyConfig;
+import com.colak.springtutorial.exception.LinkAlreadyExistsException;
+import com.colak.springtutorial.exception.LinkNotFoundException;
+import com.colak.springtutorial.jpa.LinkEntity;
+import com.colak.springtutorial.model.LinkRequest;
+import com.colak.springtutorial.model.LinkResponse;
+import com.colak.springtutorial.repository.LinkRepository;
 import lombok.RequiredArgsConstructor;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.springframework.data.redis.core.ReactiveHashOperations;

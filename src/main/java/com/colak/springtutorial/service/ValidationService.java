@@ -1,7 +1,7 @@
-package com.colak.spring_reactive_redis_url_shortener.service;
+package com.colak.springtutorial.service;
 
-import com.colak.spring_reactive_redis_url_shortener.exception.InvalidLinkException;
-import com.colak.spring_reactive_redis_url_shortener.model.LinkRequest;
+import com.colak.springtutorial.exception.InvalidLinkException;
+import com.colak.springtutorial.model.LinkRequest;
 import org.apache.commons.validator.routines.UrlValidator;
 import org.springframework.stereotype.Service;
 
